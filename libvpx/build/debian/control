@@ -1,0 +1,62 @@
+Source: libvpx
+Section: NFLX/Application
+Priority: optional
+Maintainer: spaul
+Uploaders: 
+Version: 0.0.1-LOCAL
+Standards-Version: 3.8.3
+Package: libvpx
+Homepage: 
+Architecture: all
+Distribution: nflx
+Depends: 
+XB-Manifest-Version: 1.0
+XB-Implementation-Title: netflix#src;unspecified
+XB-Implementation-Version: unspecified
+XB-Built-Status: snapshot
+XB-Built-By: spaul
+XB-Built-OS: Linux
+XB-Build-Date: 2018-06-22_01:45:14
+XB-Gradle-Version: 4.3.1
+XB-Module-Source: 
+XB-Module-Origin: ssh://git@stash.corp.netflix.com:7999/mce/libvpx.git
+XB-Change: 103ee34
+XB-Branch: master
+XB-Build-Host: bf542a6e38a7
+XB-Build-Job: LOCAL
+XB-Build-Number: LOCAL
+XB-Build-Id: LOCAL
+XB-Created-By: 1.8.0_144-b01 (Oracle Corporation)
+XB-Build-Java-Version: 1.8.0_144
+XB-Nebula-Version: 4.3.0
+XB-Implementation-Vendor: Netflix, Inc.
+XB-Module-Owner: 
+XB-Module-Email: 
+XB-X-Compile-Target-JDK: 1.8
+XB-X-Compile-Source-JDK: 1.8
+Description: libvpx
+ ----------
+  Manifest-Version: 1.0
+  Implementation-Title: netflix#src;unspecified
+  Implementation-Version: unspecified
+  Built-Status: snapshot
+  Built-By: spaul
+  Built-OS: Linux
+  Build-Date: 2018-06-22_01:45:14
+  Gradle-Version: 4.3.1
+  Module-Source: 
+  Module-Origin: ssh://git@stash.corp.netflix.com:7999/mce/libvpx.git
+  Change: 103ee34
+  Branch: master
+  Build-Host: bf542a6e38a7
+  Build-Job: LOCAL
+  Build-Number: LOCAL
+  Build-Id: LOCAL
+  Created-By: 1.8.0_144-b01 (Oracle Corporation)
+  Build-Java-Version: 1.8.0_144
+  Nebula-Version: 4.3.0
+  Implementation-Vendor: Netflix, Inc.
+  Module-Owner: 
+  Module-Email: 
+  X-Compile-Target-JDK: 1.8
+  X-Compile-Source-JDK: 1.8

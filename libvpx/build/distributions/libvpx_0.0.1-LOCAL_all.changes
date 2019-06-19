@@ -1,0 +1,20 @@
+Format: 1.8
+Date: Fri, 22 Jun 2018 01:45:18 +0000
+Source: libvpx
+Binary: libvpx
+Architecture: all
+Version: 0.0.1-LOCAL
+Distribution: nflx
+Urgency: low
+Maintainer: spaul
+Changed-By: spaul
+Description:
+ libvpx - libvpx
+Changes:
+ libvpx (0.0.1-LOCAL) nflx; urgency=low
+Checksums-Sha1:
+ c737175863e39e7bc7478674474bcdc32e383422 914 libvpx_0.0.1-LOCAL_all.deb
+Checksums-Sha256:
+ 7b1efa1c39a10f17e37793f0eb969af390ec0775c5e863fe781270af6d7d35a4 914 libvpx_0.0.1-LOCAL_all.deb
+Files:
+ c50e433848e276385ef2dc073743eba2 914 NFLX/Application optional libvpx_0.0.1-LOCAL_all.deb

@@ -1,0 +1,14 @@
+Example_Videos/
+Dummy_data/
+H-FCN_encodes/
+libvpx-build/
+*.idea/
+Python_scripts/logs_fcn/
+libvpx/cmake-build-debug
+libvpx/*.idea/
+Python_scripts/.*idea/
+Python_scripts/__pycache__
+Python_scripts/trained_model/hfcn.hdf5
+Python_scripts/trained_model/hfcn.pb
+Python_scripts/trained_model/graph_def_for_reference.pb.ascii
+

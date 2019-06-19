@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ivy-module version='2.0' xmlns:e='http://ant.apache.org/ivy/extra' xmlns:nebula='http://netflix.com/build'>
+  <info organisation='netflix' module='libvpx' revision='0.0.1-LOCAL' status='release'>
+    <description>
+      <nebula:Manifest_Version>1.0</nebula:Manifest_Version>
+      <nebula:Implementation_Title>netflix#src;unspecified</nebula:Implementation_Title>
+      <nebula:Implementation_Version>unspecified</nebula:Implementation_Version>
+      <nebula:Built_Status>snapshot</nebula:Built_Status>
+      <nebula:Built_By>spaul</nebula:Built_By>
+      <nebula:Built_OS>Linux</nebula:Built_OS>
+      <nebula:Build_Date>2018-06-22_01:45:14</nebula:Build_Date>
+      <nebula:Gradle_Version>4.3.1</nebula:Gradle_Version>
+      <nebula:Module_Source></nebula:Module_Source>
+      <nebula:Module_Origin>ssh://git@stash.corp.netflix.com:7999/mce/libvpx.git</nebula:Module_Origin>
+      <nebula:Change>103ee34</nebula:Change>
+      <nebula:Branch>master</nebula:Branch>
+      <nebula:Build_Host>bf542a6e38a7</nebula:Build_Host>
+      <nebula:Build_Job>LOCAL</nebula:Build_Job>
+      <nebula:Build_Number>LOCAL</nebula:Build_Number>
+      <nebula:Build_Id>LOCAL</nebula:Build_Id>
+      <nebula:Created_By>1.8.0_144-b01 (Oracle Corporation)</nebula:Created_By>
+      <nebula:Build_Java_Version>1.8.0_144</nebula:Build_Java_Version>
+      <nebula:Nebula_Version>4.3.0</nebula:Nebula_Version>
+      <nebula:Implementation_Vendor>Netflix, Inc.</nebula:Implementation_Vendor>
+      <nebula:Module_Owner></nebula:Module_Owner>
+      <nebula:Module_Email></nebula:Module_Email>
+      <nebula:X_Compile_Target_JDK>1.8</nebula:X_Compile_Target_JDK>
+      <nebula:X_Compile_Source_JDK>1.8</nebula:X_Compile_Source_JDK>
+    </description>
+  </info>
+  <configurations>
+    <conf name='runtime' visibility='public' />
+  </configurations>
+  <publications>
+    <artifact name='libvpx' type='deb' ext='deb' conf='runtime' />
+  </publications>
+  <dependencies />
+</ivy-module>
