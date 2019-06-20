@@ -6,7 +6,7 @@ Python 3 and NumPy
 Keras with Tensorflow backend   
 Tensorflow C API   
 
-The code provided in this project has been tested with Tensorflow version 1.12. The GPU version has been used for training and the CPU version for encoding. 
+The code provided in this project has been tested with Tensorflow version 1.12 on Ubuntu 16.04. The GPU version has been used for training and the CPU version for encoding. 
 
 ## Install Tensorflow C API
 Install the Tensorflow [C API](https://www.tensorflow.org/install/lang_c). The CPU version has been used for integration with the VP9 encoder. For best performance, compile the library [from source](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/lib_package/README.md)  enabling all the CPU extensions (AVX, AVX2, SSE 4.2, FMA etc.) supported by your processor. Additionally, if you are using an Intel processor, build with support for Intel's [MKL-DNN](https://software.intel.com/en-us/articles/intel-optimization-for-tensorflow-installation-guide) by setting the build config as `--config=mkl` to get a further boost in performance.  
